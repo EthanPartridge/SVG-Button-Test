@@ -2,9 +2,11 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<script type="text/javascript" src="project.js"></script>
+		<title>SVG Button Test</title>
 	</head>
 	<body>
-		<button type="button" value="false" id="check" class="graylogo" onclick="change()"></button>
+		<button type="button" value="false" id="check" class="x-button" onclick="change()"></button>
 
 		<form name="test" method="post">  
 			<input id="i" type="text" name="savereport" value="false" />
@@ -14,22 +16,3 @@
 	</body>
 </html>
 
-<script type="text/javascript">
-
-	function change() {
-		var input = document.test.elements["savereport"];
-
-		if (input.value == "false") {
-			document.test.elements["savereport"].value = "true";
-			//document.test.submit();
-			document.getElementById("check").style.background = "url(redCheckButtonForKickit.svg)";
-		} 
-		else if (input.value == "true") {
-			document.test.elements["savereport"].value = "false";
-			document.getElementById("check").style.background = "url(checkButtonForKickit.svg)";
-
-		}
-		document.getElementById("displayBool").textContent = input.value;
-	}
-
-</script>
