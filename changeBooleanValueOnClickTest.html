@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	</head>
+	<body>
+		<button type="button" value="false" id="check" class="graylogo" onclick="change()"></button>
+
+		<form name="test" method="post">  
+			<input id="i" type="text" name="savereport" value="false" />
+		</form>
+
+		<h1 id="displayBool"></h1>
+	</body>
+</html>
+
+<script type="text/javascript">
+
+	function change() {
+		var input = document.test.elements["savereport"];
+
+		if (input.value == "false") {
+			document.test.elements["savereport"].value = "true";
+			//document.test.submit();
+			document.getElementById("check").style.background = "url(redCheckButtonForKickit.svg)";
+		} 
+		else if (input.value == "true") {
+			document.test.elements["savereport"].value = "false";
+			document.getElementById("check").style.background = "url(checkButtonForKickit.svg)";
+
+		}
+		document.getElementById("displayBool").textContent = input.value;
+	}
+
+</script>

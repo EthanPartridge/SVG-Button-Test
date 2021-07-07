@@ -1,0 +1,16 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 152.53 152.53">
+	<defs>
+		<style>.cls-1{fill:url(#linear-gradient);}.cls-2{opacity:0.25;}.cls-3{fill:#fff;}</style>
+		<linearGradient id="linear-gradient" x1="187.42" y1="187.55" x2="317.1" y2="317.23" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#d1d1d1"/>
+			<stop offset="0.62" stop-color="#acadaf"/>
+			<stop offset="1" stop-color="#939598"/>
+		</linearGradient>
+	</defs>
+	<path id="Cross" class="cls-1" d="M280.3,252.39,326.69,206a6.26,6.26,0,0,0,0-8.86L307.51,178a6.28,6.28,0,0,0-8.86,0l-46.39,46.39L205.87,178a6.28,6.28,0,0,0-8.86,0l-19.18,19.18a6.28,6.28,0,0,0,0,8.86l46.39,46.39-46.39,46.39a6.28,6.28,0,0,0,0,8.86L197,326.82a6.26,6.26,0,0,0,8.86,0l46.39-46.39,46.39,46.39a6.26,6.26,0,0,0,8.86,0l19.18-19.18a6.26,6.26,0,0,0,0-8.86Z" transform="translate(-176 -176.13)"/>
+	<g id="Depth" class="cls-2">
+		<path class="cls-3" d="M305.08,180.13a4.2,4.2,0,0,1,3,1.25l-2-2a4.25,4.25,0,0,0-6,0l-47.81,47.8-47.81-47.8a4.25,4.25,0,0,0-6,0l-19.19,19.18a4.26,4.26,0,0,0,0,6l2,2a4.26,4.26,0,0,1,0-6l19.19-19.18a4.25,4.25,0,0,1,6,0l47.81,47.8,47.81-47.8A4.2,4.2,0,0,1,305.08,180.13Z" transform="translate(-176 -176.13)"/>
+		<polygon class="cls-3" points="149.28 124.07 103.47 78.27 149.28 124.07 149.28 124.07"/>
+		<path class="cls-3" d="M227.8,256.13l-2-2-46.64,46.64a4.16,4.16,0,0,0,0,5.88l18.72,18.72h0l-16.77-16.77a4.16,4.16,0,0,1,0-5.88Z" transform="translate(-176 -176.13)"/>
+	</g>
+</svg>
