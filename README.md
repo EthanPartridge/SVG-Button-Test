@@ -13,7 +13,7 @@ I also wanted to learn more about using HTML, CSS, and Javascript.
 ## What I Learned
 - What SVGs are how to use them
 - How to use external CSS and Javascript
-- Got more comfortable working with HTML, CSS, and Javascript
+- Became more comfortable working with HTML, CSS, and Javascript
 
 ## Tools Used
 1. HTML5
